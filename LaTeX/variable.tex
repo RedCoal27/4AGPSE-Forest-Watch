@@ -1,0 +1,34 @@
+%espacement entre les lignes d'un tableau
+\renewcommand{\arraystretch}{1.5}
+
+%régler l'espacement entre les lignes
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+
+% liste des auteurs
+\newcommand{\authorlist}[0]{4A GPSE, Darrys ABDELKRIM, Raimundo Vitor DE SOUSA CARDOSO, \\Florian KRASULJA, Alexandre MAILLET}
+
+
+%barre pieds de page
+\renewcommand{\footrulewidth}{0.6pt}
+
+
+%Création de la commande pour le sommaire
+\makeatletter
+\newcommand*{\tableofcontentssummary}{%
+  \begingroup
+    \value{tocdepth}=1\relax
+    \@fileswfalse
+    \renewcommand*{\contentsname}{Summary}%
+    \tableofcontents
+  \endgroup
+}
+\makeatother
+
+
+%tabulation
+\newcommand\tab[1][0.5cm]{\hspace*{#1}}
+
+
+%luckyLux
+\newcommand{\forest}{\textit{Forest Watch}}

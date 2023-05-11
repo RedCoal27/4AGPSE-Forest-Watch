@@ -1,0 +1,12 @@
+div(λ grad(T))+q = ρC dT/dt
+Régime permanent : 
+dT/dt = 0
+Absence de source de chaleur :
+q = 0
+λ constant :
+div(λ grad(T)) = λ∇^2*T
+
+flux chaleur :
+phi = -λ grad(T)
+
+phi indépendant des variables donc phi constant 

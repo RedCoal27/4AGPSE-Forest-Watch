@@ -1,0 +1,65 @@
+\documentclass[a4paper,justification=full]{article}
+
+\renewcommand{\familydefault}{\sfdefault}
+%include packages
+\input{package.tex}
+\bibliography{test.bib}
+
+%====================== INFORMATION ET REGLES ======================
+
+%rajouter les numérotation pour les \paragraphe et \subparagraphe
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+
+\hypersetup{							% Information sur le document
+pdfauthor = {\authorlist},			% Auteurs
+pdftitle = {},
+pdfsubject = {Forest Watch},		% Sujet
+pdfkeywords = {},	% Mots-clefs
+pdfstartview= {FitH}
+}					% ajuste la page à la largueur de l'écran
+%pdfcreator = {MikTeX},% Logiciel qui a crée le document
+%pdfproducer = {}} % Société avec produit le logiciel
+
+%======================== DEBUT DU DOCUMENT ========================
+
+\begin{document}
+
+%page de garde
+\input{./titre/titre.tex}
+
+%style du document
+\input{./style.tex}
+
+
+%sommaire
+\setcounter{page}{1}
+%table des matières
+\input{./sommaire/toc.tex}
+
+
+
+
+
+%====================== INCLUSION DES PARTIES ======================
+
+\large
+
+%section
+\input{./section/section.tex}
+
+
+
+
+%\newpage
+
+%annexes
+%\input{./annexe/annexe.tex}
+
+
+
+\end{document}
+
+
+%====================== FIN DU DOCUMENT ======================

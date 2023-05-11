@@ -1,0 +1,31 @@
+\newpage
+%le \phantomsection{} permet de regler un bug sur les sommaire qui ne ramène pas a la bonne page
+\phantomsection{}
+%section sans numéro
+\section*{Appendices}
+%ajouter quand même la section dans le sommaire
+\addcontentsline{toc}{section}{Appendices}
+
+\subsection*{Github repository}
+Everything we used (code,documentation,schematic ...) is available on our GitHub repository on this link : \url{https://github.com/RedCoal27/4AGPSE-Forest-Watch}
+
+\subsection*{Horned beast diagram of the system}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{\currfiledir/figures/horned.png}
+    \caption{Horned beast diagram of the system}
+\end{figure}
+
+\subsection*{Horned beast diagram for Lora}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.48\textwidth]{\currfiledir/figures/horned_lora.png}
+    \caption{Horned beast diagram for Lora}
+\end{figure}
+
+\newpage
+\subsection*{Self-assessment:}
+\input{./annexe/figures/florian.tex}
+\input{./annexe/figures/alexandre.tex}
+\input{./annexe/figures/raimundo.tex}
+\input{./annexe/figures/darrys.tex}

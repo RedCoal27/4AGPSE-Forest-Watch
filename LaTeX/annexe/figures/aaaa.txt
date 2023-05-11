@@ -1,0 +1,157 @@
+
+# # Calculs optiques de l'appareil photo
+# 
+# Notre appareil est un Lumix DMC-G5, ses caractéristiques sont ici : https://www.panasonic.com/ch/fr/consumer/archives/appareils-photo-et-camescopes/appareils-photo-LUMIX-G/Serie-LUMIX-G/dmc-g5eg.html
+# 
+# https://www.panasonic.com/fr/consumer/archive-produits/appareils-photo-et-camescopes/dmc-g5ef.specs.html
+# 
+# 
+# L'objectif choisi grâce à Julien est le suivant : https://www.m43lenses.com/panasonic-45-175mm-f4-5.6/
+# 
+# Caractéristiques de l'appareil photo :
+# - Capteur d'image de 17,3 * 13,0 mm (en 4/3)
+# - 18,31 Mégapixels, 16,05 Mégapixels de manière effective
+# 
+# Caractéristiques de l'objectif :
+# - Distance focale : 45 à 175 mm
+# - Ouverture max : 4 à 5.6
+
+
+import numpy as np
+import scipy.signal as sig
+from matplotlib import pyplot as plt #library to plot figures
+
+
+# Le but est d'abord de calculer les caractéristiques fondamentales de l'appareil photo, à savoir la taille d'un pixel sur le capteur et le nombre de capteurs en longueur et en largeur.
+# 
+# On connaît le nombre de pixels (effectifs) sur le capteur, on connaît la taille du capteur d'image. Le but est de calculer le champ de vue de l'image.
+
+
+name="Lumix DMC-G5"
+f = [45, 175] # focale en mm
+D = [4, 5.6] # ouverture f/4 à f/5.6
+
+largCapteur = 13
+longCapteur = 17.3
+
+dimCapteur= np.array([largCapteur, longCapteur]) # dimensions du capteur en mm
+nbPixDimCapteur = np.array([3456, 4608]) # nombre de pixels en largeur et en longueur du capteur
+aireCapteur = dimCapteur[0]*pow(10,3)*dimCapteur[1]*pow(10,3) #aire du capteur en µm²
+nbPixel = 16.05*pow(10,6) #nombre de pixels effectifs sur le capteur
+airePixel = aireCapteur/nbPixel #aire d'un pixel en µm²
+
+dimPixel = [(dimCapteur[0]*pow(10,3))/nbPixDimCapteur[0], (dimCapteur[1]*pow(10,3))/nbPixDimCapteur[1]] #dimensions d'un pixel en µm
+surfPixel = dimPixel[0] * dimPixel[1] #surface d'un pixel en µm²
+
+
+print(f"taille de l'image en pixels : {nbPixel*pow(10,-6)} Mpixels")
+print(f"aire du capteur : {aireCapteur} µm²")
+print(f"aire d'un pixel : {airePixel} µm²")
+print(f"taille d'un pixel sur le capteur: {dimPixel[0]:.4f} x {dimPixel[1]:.4f} µm, soit une surface de {surfPixel:0.6f} µm²")
+
+
+champVue=2*np.arctan(dimCapteur[0]/2/f)*180/np.pi #angle du champ de vue en °
+
+i = 0
+for i in range(2):
+    print(f"angle du champ de vue {champVue[i]}° pour une focale de {f[i]} mm")
+
+
+# Maintenant, nous devons calculer la profondeur de champ.
+# 
+# Cercle de confusion : $c (mm) = \frac{1*dimPixel (µm)}{1000}$
+# 
+# dimPixel : dimensions d'un pixel (ici la largeur ou la longueur) en µm
+# 
+# Distance hyperfocale : $H (m) = \frac{\frac{\frac{f^2}{Ouverture}}{c}}{1000}$
+# 
+# f : distance focale (mm)
+# 
+# c : cercle de confusion (mm)
+
+
+c=1*dimPixel[0]/1000 # diametre du cercle de confusion en mm , j'ai mis la taille d'un pixel (à vérifier que c'est judicieux)
+
+H = [0,0]
+
+print(name)
+for i in range(2):
+    
+    H[i]=pow(f[i],2)/D[i]/c/1000 #en m, distance hyperfocale
+    print(f"la focale est de {f[i]:.2f} mm et l'ouverture de 1/ {D[i]:.2f}")
+    print(f"angle du champ de vue {champVue[i]:.2f}° pour une focale de {f[i]:.2f} mm,") 
+    print(f"on considere un cercle de confusion de {c*1000/dimPixel[0]:.1f} pixel(s) capteur")
+    print(f"Cas hyperfocale : si mise au point à {H[i]:.2f} m, on est net entre {H[i]/2:.2f}m et l'infini")
+    print("-------")
+
+
+
+# parametres arbre
+p=300 # distance (en m) à laquelle se trouve l'objet  en m (mise au point)
+p1 = [0,0]
+p2 = [0,0]
+
+#zone de netteté
+for i in range(2):
+    
+    p1[i]=p*H[i]/(p+H[i]) # debut de zone de netteté
+    p2[i]=p*H[i]/(H[i]-p) # fin de zone de netteté
+    if p<H[i]:
+        print(f"si mise au point à {p:.2f} m, on est net entre {p1[i]:.2f} m et {p2[i]:.2f} m")
+    else:
+        print(f"à {p} m, on a dépassé l'hyperfocale")
+        p1[i]=H[i]/2
+        p2[i]=float('inf') 
+
+    #resolution
+    dx=2*p*np.tan(np.pi*champVue[i]/2/180) # en m, zone vue par le champ de vue
+    dcapteur=dx/np.min(nbPixel)*100 # en cm, taille réelle d'un pixel
+    print(f"à {p} m, le champ de vue ({champVue[i]:.2f}°) forme une zone  de {dx:.1f} m"  ) #taille de la zone perpendiculaire
+    print(f"un pixel représente alors {dcapteur:.1f} cm")
+    print("---")
+
+
+# # Calcul de l'espace nécessaire pour stocker les photos
+# 
+# Temps : 4 mois
+# 
+# Format : raw ou jpeg
+# 
+# Résolutions existantes : 4608x3456, 3264x2448, 2336x1752
+
+
+resL = [4608, 3456]
+resM = [3264, 2448]
+resS = [2336, 1752]
+
+type_res = ["large", "medium", "small"]
+
+res = [resL[0]*resL[1], resM[0]*resM[1], resS[0]*resS[1]]
+
+
+# En partant du principe que chaque canal R, G et B est codé sur 8 bits, on a donc 24 bits par pixel.
+
+
+nbBitsImage = [res[0]*24, res[1]*24, res[2]*24] #nombre de bits dans une image
+nbBitPixel = 24
+
+for i in range(len(nbBitsImage)):
+    print(f"nombre de bits d'une image ({type_res[i]}) : {nbBitsImage[i]} bits, soit {nbBitsImage[i]/8} bytes")
+    print(f"poids d'une image ({type_res[i]}) : {(nbBitsImage[i]/8)/(1024*1024)} Mbytes") 
+
+
+# Sur le temps long, on doit prendre deux images par jour, et avoir une durée assez longue (environ 4 mois).
+
+
+T = 120 #nombre de jours dans 4 mois
+
+nbPhotos = T*2
+espace = [0,0,0]
+
+for i in range(3):
+    espace[i] = ((nbBitsImage[i]/8)/(1024*1024)) * nbPhotos
+
+for i in range(3):
+    print(f"espace nécessaire pour 4 mois sur une image de type {type_res[i]} : {espace[i]/1024} Gigabytes")
+
+

@@ -1,0 +1,439 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{herve_luzphotos_focale_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=952d246dface6f168a24d3d3edc4f240}{%
+           family={(LuzPhotos)},
+           familyi={(\bibinitperiod},
+           given={Hervé},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {fr-FR}%
+      }
+      \strng{namehash}{952d246dface6f168a24d3d3edc4f240}
+      \strng{fullhash}{952d246dface6f168a24d3d3edc4f240}
+      \strng{bibnamehash}{952d246dface6f168a24d3d3edc4f240}
+      \strng{authorbibnamehash}{952d246dface6f168a24d3d3edc4f240}
+      \strng{authornamehash}{952d246dface6f168a24d3d3edc4f240}
+      \strng{authorfullhash}{952d246dface6f168a24d3d3edc4f240}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La focale d'un objectif : comprendre les notions de distance focale, angle de champ et grossissement, focale "réelle" et équivalente, coefficient de conversion...}
+      \field{journaltitle}{LuzPhotos - Blog et formations photo}
+      \field{month}{1}
+      \field{shorttitle}{La focale d'un objectif}
+      \field{title}{La focale d'un objectif : définition, angle de champ et focale équivalente…}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\D\\Zotero\\storage\\N5DFVG2Y\\focale-objectif-def-focale-equivalente.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.luzphotos.com/materiel/objectif/focale-objectif-def-focale-equivalente
+      \endverb
+      \verb{url}
+      \verb https://www.luzphotos.com/materiel/objectif/focale-objectif-def-focale-equivalente
+      \endverb
+    \endentry
+    \entry{AM2320}{online}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{{AM}2320 Digital Temperature and Humidity Sensor}
+      \verb{file}
+      \verb AM2320 Digital Temperature and Humidity Sensor \: ID 3721 \: \$3.95 \: Adafruit Industries, Unique & fun DIY electronics and kits:C\:\\Users\\alexa\\Zotero\\storage\\982BQW89\\3721.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.adafruit.com/product/3721
+      \endverb
+      \verb{url}
+      \verb https://www.adafruit.com/product/3721
+      \endverb
+    \endentry
+    \entry{angle}{online}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Angle de champ}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://media4.obspm.fr/public/ressources_lu/pages_instruments-photo/instru-ap-grand-angle-teleobjectif.html
+      \endverb
+      \verb{url}
+      \verb https://media4.obspm.fr/public/ressources_lu/pages_instruments-photo/instru-ap-grand-angle-teleobjectif.html
+      \endverb
+    \endentry
+    \entry{hirudin_arduino_2013}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=95813791b13df82f13bbe8a27e32aa18}{%
+           family={{Hirudin}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{95813791b13df82f13bbe8a27e32aa18}
+      \strng{fullhash}{95813791b13df82f13bbe8a27e32aa18}
+      \strng{bibnamehash}{95813791b13df82f13bbe8a27e32aa18}
+      \strng{authorbibnamehash}{95813791b13df82f13bbe8a27e32aa18}
+      \strng{authornamehash}{95813791b13df82f13bbe8a27e32aa18}
+      \strng{authorfullhash}{95813791b13df82f13bbe8a27e32aa18}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{Arduino {Panasonic} remote shutter release ({DMW}-{RSL1} disassembly)}
+      \field{year}{2013}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=DNj48nwUjxk
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=DNj48nwUjxk
+      \endverb
+    \endentry
+    \entry{20602}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The {ICM}-20602 is a 6-axis {MotionTracking} device that combines a 3 axis gyroscope, 3 axis accelerometer, in a small 3 mm x 3 mm x 0.75 mm (16 pin {LGA}) package. {ICM}-20602 includes on-chip 16bit {ADCs}, programmable digital filters, an embedded temperature sensor, and programmable interrupts. The device features an operating voltage range down to 1.71V. Communication ports include I2C and high speed {SPI} at 10MHz.}
+      \field{langid}{french}
+      \field{title}{{ICM}-20602 - Module {MEMS}, Série {MotionTracking}, Gyroscope/Accéléromètre 3 axes, ±16g, 1,71V à 3,45V, {LGA}-16}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\alexa\\Zotero\\storage\\RLAMKUBR\\2911496.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://fr.farnell.com/invensense/icm-20602/mod-mems-gyroscope-accelerometre/dp/2911496
+      \endverb
+      \verb{url}
+      \verb https://fr.farnell.com/invensense/icm-20602/mod-mems-gyroscope-accelerometre/dp/2911496
+      \endverb
+    \endentry
+    \entry{focal_length}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{La focale d’un objectif : définition, angle de champ, focale équivalente…}
+      \verb{file}
+      \verb La focale d’un objectif \: définition, angle de champ, focale équivalente…:C\:\\Users\\alexa\\Zotero\\storage\\LDCW9SDX\\focale-objectif-def-focale-equivalente.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.luzphotos.com/materiel/objectif/focale-objectif-def-focale-equivalente
+      \endverb
+      \verb{url}
+      \verb https://www.luzphotos.com/materiel/objectif/focale-objectif-def-focale-equivalente
+      \endverb
+    \endentry
+    \entry{LM317}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{LM317 - Adjustable Regulator}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/lm317.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/lm317.pdf
+      \endverb
+    \endentry
+    \entry{Temp}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{LM35DZ Temperature sensor}
+      \verb{urlraw}
+      \verb https://boutique.semageek.com/fr/index.php?controller=attachment&id_attachment=80
+      \endverb
+      \verb{url}
+      \verb https://boutique.semageek.com/fr/index.php?controller=attachment&id_attachment=80
+      \endverb
+    \endentry
+    \entry{Lora}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Lora Hat for Raspberry Pi}
+      \verb{urlraw}
+      \verb https://www.dragino.com/products/lora/item/106-lora-gps-hat.html
+      \endverb
+      \verb{url}
+      \verb https://www.dragino.com/products/lora/item/106-lora-gps-hat.html
+      \endverb
+    \endentry
+    \entry{Relay3.3}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{LT1763}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.mouser.fr/datasheet/2/609/1763fh-3123364.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mouser.fr/datasheet/2/609/1763fh-3123364.pdf
+      \endverb
+    \endentry
+    \entry{JACK}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{LT1763}
+      \verb{urlraw}
+      \verb https://www.doc-diy.net/photo/remote_pinout/#lumix
+      \endverb
+      \verb{url}
+      \verb https://www.doc-diy.net/photo/remote_pinout/#lumix
+      \endverb
+    \endentry
+    \entry{Relay}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Relay G5V-1}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.mouser.fr/datasheet/2/307/en-g5v_1-1097070.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mouser.fr/datasheet/2/307/en-g5v_1-1097070.pdf
+      \endverb
+    \endentry
+    \entry{RFM95W}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{RFM95W - Low Power Long Range Transceiver Module}
+      \verb{urlraw}
+      \verb https://www.hoperf.com/data/upload/portal/20190801/RFM95W-V2.0.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.hoperf.com/data/upload/portal/20190801/RFM95W-V2.0.pdf
+      \endverb
+    \endentry
+    \entry{battery}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{{RS} {PRO} 12 V, 24 V 10A Solar Charge Controller {|} {RS}}
+      \verb{file}
+      \verb RS PRO 12 V, 24 V 10A Solar Charge Controller | RS:C\:\\Users\\alexa\\Zotero\\storage\\5AXGQUJH\\9054532.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://uk.rs-online.com/web/p/solar-charge-controllers/9054532
+      \endverb
+      \verb{url}
+      \verb https://uk.rs-online.com/web/p/solar-charge-controllers/9054532
+      \endverb
+    \endentry
+    \entry{the_backoffice_camera_2017}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d5c339a71488f89e9055a414501e8c5c}{%
+           family={{The Backoffice}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5c339a71488f89e9055a414501e8c5c}
+      \strng{fullhash}{d5c339a71488f89e9055a414501e8c5c}
+      \strng{bibnamehash}{d5c339a71488f89e9055a414501e8c5c}
+      \strng{authorbibnamehash}{d5c339a71488f89e9055a414501e8c5c}
+      \strng{authornamehash}{d5c339a71488f89e9055a414501e8c5c}
+      \strng{authorfullhash}{d5c339a71488f89e9055a414501e8c5c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Camera {Remote} {Shutter} control for {Lumix}}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=p38VHJZr6iE
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=p38VHJZr6iE
+      \endverb
+    \endentry
+    \entry{Light}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{TSL 2561 Light sensor}
+      \verb{urlraw}
+      \verb https://shop.mchobby.be/
+      \endverb
+      \verb{url}
+      \verb https://shop.mchobby.be/
+      \endverb
+    \endentry
+    \entry{case}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Valise Peli™ 1150 vide, noire}
+      \verb{file}
+      \verb Valise Peli™ 1150 vide, noire:C\:\\Users\\alexa\\Zotero\\storage\\PQLCXH6B\\554-valise-peli-1150-vide-noire-0019428005313.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://shop.cpfrance.com/peli-cases/554-valise-peli-1150-vide-noire-0019428005313.html
+      \endverb
+      \verb{url}
+      \verb https://shop.cpfrance.com/peli-cases/554-valise-peli-1150-vide-noire-0019428005313.html
+      \endverb
+    \endentry
+    \entry{winterl_microbs_2020}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=db2141379fb11310ac22700b447a5c88}{%
+           family={Winterl},
+           familyi={W\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2382c419c9db8e6997dee3f8e725ec23}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8f53783c5558114beb19771d390051a}{%
+           family={Houstin},
+           familyi={H\bibinitperiod},
+           given={Aymeric},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f84d97dd98fcab630269feeb027625a9}{%
+           family={Nesterova},
+           familyi={N\bibinitperiod},
+           given={Anna\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=059da227d29bac9ac9316beae97a8e1f}{%
+           family={Bonadonna},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc0e7a21a08b15452930af6f8816b4fe}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a9d60260d74de4190536911083ef652}{%
+           family={Fabry},
+           familyi={F\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf80003b96a237e0c891d24364d092d6}{%
+           family={Le\bibnamedelima Bohec},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Céline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e167123c6cfc79ac7c98dcc1a322fe51}{%
+           family={Zitterbart},
+           familyi={Z\bibinitperiod},
+           given={Daniel\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{13dc32da3bd39e5db2f566d2445917e8}
+      \strng{fullhash}{210b474df68bed2fbe4887d3b69a461b}
+      \strng{bibnamehash}{13dc32da3bd39e5db2f566d2445917e8}
+      \strng{authorbibnamehash}{13dc32da3bd39e5db2f566d2445917e8}
+      \strng{authornamehash}{13dc32da3bd39e5db2f566d2445917e8}
+      \strng{authorfullhash}{210b474df68bed2fbe4887d3b69a461b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Camera traps for motion-triggered or continuous time-lapse recordings are readily available on the market. For demanding applications in ecology and environmental sciences, however, commercial systems often lack ﬂexibility to freely adjust recording time intervals, suffer from mechanical component wear, and can be difﬁcult to combine with auxiliary sensors such as GPS, weather stations, or light sensors. We present a robust time-lapse camera system that has been operating continuously since 2013 under the harsh climatic conditions of the Antarctic and Subantarctic regions. Thus far, we have recorded over one million images with individual cameras. The system consumes 122 mW of power in standby mode and captures up to 200,000 high-resolution (16 MPix) images without maintenance such as battery or image memory replacement. It offers time-lapse intervals between 2 s and 1 h, low-light or night-time power saving, and data logging capabilities for additional inputs such as GPS and weather data.}
+      \field{issn}{24680672}
+      \field{journaltitle}{HardwareX}
+      \field{month}{10}
+      \field{title}{{micrObs} {A} customizable time-lapse camera for ecological studies}
+      \field{volume}{8}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{e00134}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.ohx.2020.e00134
+      \endverb
+      \verb{file}
+      \verb Winterl et al. - 2020 - micrObs - A customizable time-lapse camera for eco.pdf:C\:\\Users\\D\\Zotero\\storage\\8QRGJISA\\Winterl et al. - 2020 - micrObs - A customizable time-lapse camera for eco.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2468067220300432
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2468067220300432
+      \endverb
+    \endentry
+    \entry{noauthor_wwwdoc-diynet_nodate}{misc}{}
+      \field{sortinit}{w}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{www.doc-diy.net :: camera remote release pinout list}
+      \true{nocite}
+      \verb{file}
+      \verb www.doc-diy.net \:\: camera remote release pinout list:C\:\\Users\\D\\Zotero\\storage\\8QS9XYYN\\remote_pinout.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.doc-diy.net/photo/remote_pinout/#lumix
+      \endverb
+      \verb{url}
+      \verb https://www.doc-diy.net/photo/remote_pinout/#lumix
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

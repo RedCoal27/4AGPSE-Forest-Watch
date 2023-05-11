@@ -1,0 +1,16 @@
+\newpage
+%le \phantomsection{} permet de regler un bug sur les sommaire qui ne ramène pas a la bonne page
+\phantomsection{}
+%section sans numéro
+\section*{Technical introduction}
+%ajouter quand même la section dans le sommaire
+\addcontentsline{toc}{section}{Technical introduction}
+
+The project's goal is to create an autonomous system. It will be able to take two pictures a day in a remote location in a tropical forest for research purposes. The forest is in Gabon, where researchers from the Belgian university of Liège are working on the evolution of trees.
+Here is the intended usage scenario:
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{\currfiledir/figures/usage_scenario.jpg}
+    \caption{Picture representing the intended usage scenario for the system.}
+\end{figure}

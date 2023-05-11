@@ -1,0 +1,28 @@
+%des paramètre
+\onehalfspacing{}
+\pagestyle{fancy}
+\fancyhf{}
+
+%tête de page
+\chead{Capability Development Document}
+\lhead{\raisebox{-0.6cm}{\includegraphics[scale=0.30]{./titre/polytech}}}%logo au centre du pied de page 
+\rhead{\today}
+
+%pied de page
+\lfoot{\authorlist}
+\def\footruleskip{0.2cm}%pour remonter la barre au besoin
+\rfoot{Page \thepage{} | \pageref*{LastPage}}
+ 
+
+%format des sections
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection.}{1em}{\underline}
+
+%format des sections
+\titleformat{\subsection}
+{\normalfont\bfseries}{\thesubsection.}{1em}{\underline}
+
+%format des sections
+\titleformat{\subsubsection}
+{\normalfont\bfseries}{\thesubsubsection.}{1em}{\underline}
+

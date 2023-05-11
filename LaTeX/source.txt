@@ -1,0 +1,5 @@
+
+
+schema_croix
+Schéma croix https://www.unilim.fr/pages_perso/valerie.madrangeas/Transistor-bipolaire1.pdf
+
